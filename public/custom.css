@@ -77,13 +77,11 @@ input{
 
 .bottom .btn-primary{
     background: transparent;
-    padding: 10px 0px;
-    width: calc(100% / 3 - 1.5%)
+    width: calc(100% / 3 - 1.5%);
+    padding:0;
 }
 
-.social-btns{
-    font-weight:bold;
-}
+
 
 .social-btns .facebook,
 .social-btns .google,
@@ -104,7 +102,7 @@ input{
     background: #2eb7e5!important;;
 }
 
-label img{
+button img{
     width:30px;
 }
 
@@ -137,6 +135,9 @@ label img{
     button{
         font-size: 25px!important;
     }
+    .bottom .btn-primary{
+        padding: 10px 0px;
+    }
 }
 @media screen and (min-width: 992px){
     .container{
@@ -166,6 +167,9 @@ label img{
        background-image: url("./../assets/img/game1.jpg");
         animation: change 15s infinite ease-in-out;
        
+    }
+    .bottom .btn-primary{
+        padding:5px 0!important;
     }
     @keyframes change{
         0%
@@ -226,9 +230,7 @@ label img{
     }
 }
 @media screen and (min-width: 1400px){
-    .bottom .btn-primary{
-        padding: 10px 0px;
-    }
+    
     .logo{
         width:250px;
     }
