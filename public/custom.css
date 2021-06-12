@@ -213,6 +213,15 @@ button img{
         height: 95% !important;
         font-size: 16px!important;
     }
+    .row .col-xl-6.right-text{
+        border-radius: 15px 0 0 15px;
+    }
+    .overlay2{
+        background:rgba(0,0,0, 0.3)!important;
+        z-index: 0;
+        left:0;
+        border-radius: 15px 0 0 15px;
+    }
     button,
     label,
     input{
