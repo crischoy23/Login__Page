@@ -1,0 +1,239 @@
+.container{    
+    height:100vh;
+}
+.background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image { 
+    background-image: url("https://skut26.com/wp-content/uploads/2021/03/fb462cfc55c2fa522b65ee4c8a437164.jpg");
+    z-index: -1;  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;  
+  }
+
+.row{
+    background-image: url("./../assets/img/game1.jpg");
+    border-radius: 15px;
+    height:95%;
+     animation: change 15s infinite ease-in-out;
+    
+ }
+
+ @keyframes change{
+     0%
+     {
+         background-image: url(./../assets/img/game1.jpg);
+     }
+     20%
+     {
+         background-image: url(./../assets/img/game2.jpg);
+     }
+ 
+     60%
+     {
+         background-image: url(./../assets/img/game1.jpg);
+     }
+     100%
+     {
+         background-image: url(./../assets/img/game2.jpg);
+     }
+ }
+
+.col{
+    z-index:2;
+}
+
+.logo{
+    width:180px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+a{
+    text-decoration:none!important;
+}
+
+a:hover{
+    text-decoration:underline!important;
+}
+
+input{
+    background-color: rgb(49, 51, 51)!important;
+    outline: none;
+    border:none;
+}
+
+.overlay{
+    background:rgba(0,0,0, 0.6)!important;
+    z-index: 0;
+    left:0;
+    border-radius: 15px;
+}
+
+.bottom .btn-primary{
+    background: transparent;
+    padding: 10px 0px;
+    width: calc(100% / 3 - 1.5%)
+}
+
+.social-btns{
+    font-weight:bold;
+}
+
+.social-btns .facebook,
+.social-btns .google,
+.social-btns .twitter
+{
+    background: rgb(95, 95, 95);
+}
+
+.social-btns .facebook:hover{
+    background: #3d578f!important;
+}
+
+.social-btns .google:hover{
+    background: #bf3b31;
+}
+
+.social-btns .twitter:hover{
+    background: #2eb7e5!important;;
+}
+
+label img{
+    width:30px;
+}
+
+.twitter-icon{
+    width:42px;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+       width:700px;
+       font-size: 20px!important;
+    }
+    .row{
+       
+        height: 90%!important;
+    }
+    .logo{
+        width:250px;
+    }
+    .inner{  
+        width: 80%;
+        height: 90%;
+    }
+    input{
+        height: 45px !important;
+        color: rgb(218, 221, 221) !important;
+        font-size: 25px!important;
+    }
+    label,
+    button{
+        font-size: 25px!important;
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        width: 95% !important;
+    }
+    h1{
+        font-weight: 900;
+    }
+    span.logo{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    span.top{
+        display: inline-block;
+        width: 100%; 
+    }
+    span.color{
+        display: inline-block;
+        color:#0B5ED7;
+    }
+    .row{
+        background: rgb(46, 46, 46)!important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0, 0.4);
+    }
+    .right-text{
+       background-image: url("./../assets/img/game1.jpg");
+        animation: change 15s infinite ease-in-out;
+       
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url(./../assets/img/game1.jpg);
+        }
+        20%
+        {
+            background-image: url(./../assets/img/game2.jpg);
+        }
+    
+        60%
+        {
+            background-image: url(./../assets/img/game1.jpg);
+        }
+        100%
+        {
+            background-image: url(./../assets/img/game2.jpg);
+        }
+    }
+    .overlay2{
+        background:rgba(0,0,0, 0.3)!important;
+        z-index: 0;
+        left:0;
+        border-radius: 15px 0 0 15px;
+    }
+    .right-text-content{
+        z-index: 1;
+    }
+    .row .col-lg-6.right-text{
+        border-radius: 15px 0 0 15px;
+    }
+
+    .inner{
+        height: 75% !important;
+        width: 100%!important;  
+    }
+}
+@media screen and (min-width: 1200px){
+    .row{
+        height: 95% !important;
+        font-size: 16px!important;
+    }
+    button,
+    label,
+    input{
+        font-size: 16px!important;
+    }
+    .inner{
+        height: 95% !important;
+        width: 85%!important;  
+    }
+    .logo{
+        width:200px;
+    }
+    form{
+        align-items: flex-start!important;
+    }
+}
+@media screen and (min-width: 1400px){
+    .bottom .btn-primary{
+        padding: 10px 0px;
+    }
+    .logo{
+        width:250px;
+    }
+    .inner{
+        height: 85% !important;
+        width: 85%!important;  
+    }
+}
