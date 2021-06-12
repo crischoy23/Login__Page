@@ -25,20 +25,20 @@
  @keyframes change{
      0%
      {
-         background-image: url(./../assets/img/game1.jpg);
+         background-image: url("./../assets/img/game1.jpg");
      }
      20%
      {
-         background-image: url(./../assets/img/game2.jpg);
+         background-image: url("./../assets/img/game2.jpg");
      }
  
      60%
      {
-         background-image: url(./../assets/img/game1.jpg);
+         background-image: url("./../assets/img/game1.jpg");
      }
      100%
      {
-         background-image: url(./../assets/img/game2.jpg);
+         background-image: url("./../assets/img/game2.jpg");
      }
  }
 
@@ -170,20 +170,20 @@ label img{
     @keyframes change{
         0%
         {
-            background-image: url(./../assets/img/game1.jpg);
+            background-image: url("./../assets/img/game1.jpg");
         }
         20%
         {
-            background-image: url(./../assets/img/game2.jpg);
+            background-image: url("./../assets/img/game2.jpg");
         }
     
         60%
         {
-            background-image: url(./../assets/img/game1.jpg);
+            background-image: url("./../assets/img/game1.jpg");
         }
         100%
         {
-            background-image: url(./../assets/img/game2.jpg);
+            background-image: url("./../assets/img/game2.jpg");
         }
     }
     .overlay2{
