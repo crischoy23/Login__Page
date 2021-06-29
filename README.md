@@ -2,7 +2,7 @@
 
 ## 🔲Gaming Login page(fictional-educational purpose only)
 
-This is an activity to build a login page using Bootstrap. It's coded from scratch into an actual responsive login page.
+This is an activity to build a login page using Bootstrap 5. It's coded from scratch into an actual responsive login page.
 
 ## 💻 To Visit the site, click the link below
 
